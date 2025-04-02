@@ -1,0 +1,15 @@
+*   dda910c Merge branch 'master' of https://github.com/u-MartinJ/SI_2025_lab1_232102
+|\  
+| *   fa3440c Merge pull request #11 from u-MartinJ/2-find-all-completed-tasks
+| |\  
+| | * e420e39 Task 2 Solved
+| * |   af67623 Merge pull request #10 from u-MartinJ/1-remove-a-task-by-name
+| |\ \  
+| | |/  
+| |/|   
+| | * 8df3818 Task 1 Solved
+| |/  
+* / ac652ca Task 3 Solved
+|/  
+* 9a63190 Add starter code
+* 9cd6907 Initial commit

@@ -1,0 +1,39 @@
+git init
+git remote add origin https://github.com/u-MartinJ/SI_2025_lab1_232102.git
+
+git add README.md
+git commit -m "Initial commit"
+git push -u origin master
+
+git add SI2025Lab1Main.java
+git commit -m "Add starter code"
+git push -u origin master
+
+git fetch origin
+
+git checkout 1-remove-a-task-by-name
+git add SI2025Lab1Main.java
+git commit -m "Task 1 Solved"
+git push -u origin 1-remove-a-task-by-name
+
+git checkout 2-find-all-completed-tasks
+git add SI2025Lab1Main.java
+git commit -m "Task 2 Solved"
+git push -u origin 2-find-all-completed-tasks
+
+
+git checkout 3-list-tasks-sorted-by-name
+git add SI2025Lab1Main.java
+git commit -m "Task 3 Solved"
+git push -u origin 3-list-tasks-sorted-by-name
+
+
+git pull origin master
+git checkout master
+git merge origin 3-list-tasks-sorted-by-name
+git push -u origin master
+
+git log --oneline --graph --all > logs.txt
+git add 232102.txt
+git add logs.txt  
+git commit -m "Final commit"
